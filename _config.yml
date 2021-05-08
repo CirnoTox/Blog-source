@@ -106,6 +106,6 @@ deploy:
   repo: https://github.com/CirnoTox/CirnoTox.github.io
   branch: master
 
-favicon: https://raw.githubusercontent.com/CirnoTox/Blog-source/main/images_source/uuz.ico
+favicon: https://cdn.jsdelivr.net/gh/CirnoTox/Blog-source@main/source/images/uuz.ico
   #apple_touch_icon: /source/images/icons/apple-touch-icon-next.png
   #safari_pinned_tab: /source/images/icons/logo.svg

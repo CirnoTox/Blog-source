@@ -4,7 +4,7 @@
 navbar:
   visiable: auto # always, auto
   logo: # choose [img] or [icon + title]
-    img: https://raw.githubusercontent.com/CirnoTox/Blog-source/main/images_source/uuz.ico
+    img: https://cdn.jsdelivr.net/gh/CirnoTox/Blog-source@main/source/images/uuz.ico
     icon: 
     title: 
   menu:
@@ -37,7 +37,7 @@ cover:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
-  background: https://raw.githubusercontent.com/CirnoTox/Blog-source/main/images_source/Cover.png
+  background: https://cdn.jsdelivr.net/gh/CirnoTox/Blog-source@main/source/images/Cover.png
   # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: Welcome To CirnoTox's Blog !
@@ -153,8 +153,7 @@ plugins:
     duration: 10000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - images/Cover.png/
-      #https://raw.githubusercontent.com/CirnoTox/Blog-source/main/images_source/Cover.png
+      - https://cdn.jsdelivr.net/gh/CirnoTox/Blog-source@main/source/images/Cover.png
   
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
