@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -109,5 +109,3 @@ deploy:
 favicon: https://raw.githubusercontent.com/CirnoTox/Blog-source/main/images_source/uuz.ico
   #apple_touch_icon: /source/images/icons/apple-touch-icon-next.png
   #safari_pinned_tab: /source/images/icons/logo.svg
-
- 

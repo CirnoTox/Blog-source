@@ -153,7 +153,9 @@ plugins:
     duration: 10000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - https://raw.githubusercontent.com/CirnoTox/Blog-source/main/images_source/Cover.png
+      - images/Cover.png/
+      #https://raw.githubusercontent.com/CirnoTox/Blog-source/main/images_source/Cover.png
+  
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
   aplayer:
