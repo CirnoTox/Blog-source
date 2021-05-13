@@ -2,7 +2,7 @@
 ############################### Navigation Bar ############################### > start
 # 注意事项：建议规范全站路径 URL 最后带一个 "/" 例如 "about/"
 navbar:
-  visiable: auto # always, auto
+  visiable: always # always, auto
   logo: # choose [img] or [icon + title]
     img: https://cdn.jsdelivr.net/gh/CirnoTox/Blog-source@main/source/images/uuz.ico
     icon: 
@@ -26,15 +26,13 @@ navbar:
     - name: 关于
       icon: fas fa-info-circle
       url: about/
-    - name: 背景音乐
-      icon: fas fa-compact-disc
   search: Search...   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
 
 ############################### Cover ############################### > start
 cover:
   height_scheme: full # full, half
-  layout_scheme: focus # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  layout_scheme: featured # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: true
@@ -46,22 +44,14 @@ cover:
   subtitle: ''
   search: Search for something # search bar placeholder
   features:
-    - name: 文档
-      icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
-      url: /v4/getting-started/
-    - name: 帮助
+    - name: 关于
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
-      url: faqs/
-    - name: 示例
+      url: /about/
+    - name: 精选
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
-      url: /examples/
-    - name: 社区
-      icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
-      url: /contributors/
+      url: /selection/
     - name: 博客
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
@@ -69,7 +59,7 @@ cover:
     - name: 源码
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
-      url: https://github.com/volantis-x/hexo-theme-volantis/
+      url: https://github.com/CirnoTox/Blog-source
 ############################### Cover ############################### > end
 
 ############################### Article Layout ############################### > start
@@ -559,7 +549,7 @@ custom_css:
 ############################### Site Footer ############################### > start
 site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [aplayer, social, license, info]
+  layout: [ social, license, info ,aplayer]
   social:
     - icon: fab fa-github
       url: https://github.com/CirnoTox/
