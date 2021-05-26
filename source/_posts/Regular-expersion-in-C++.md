@@ -15,9 +15,9 @@ This post mainly talks about the grammar and usage of `Regular Expersion` in C++
  Only one of above grammars can be specified.
 
  Several others flags can be applied at the same time:
- * icase
+ * icase:ignore upper case and lower case
+ * optimize:Make matching faster, at the possible expense of greater construction time.
  * nosubs
- * optimize
  * collate
 ## Element
 An element can be one of the following things:
