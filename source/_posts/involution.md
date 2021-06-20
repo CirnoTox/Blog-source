@@ -15,10 +15,9 @@ tags: involution
 3. 高质的投入收益甚微；
 4. 恶性竞争会使系统的发展速度逐渐变缓；
 5. 当发展速度极低时，整个系统会去寻找解决办法终止恶性竞争，让发展重新提速。
- 
- ![](./involution/1.png)
+ {% image https://cdn.jsdelivr.net/gh/CirnoTox/Blog-source@main/source/_posts/involution/1.png, alt=P1 %}
 图一中的“投入“特指低质高量的投入。
- ![](./involution/2.png)
+ {% image https://cdn.jsdelivr.net/gh/CirnoTox/Blog-source@main/source/_posts/involution/2.png, alt=P2 %}
  
 接下来，我们把以上的定义和两张图应用到实际中。
 
